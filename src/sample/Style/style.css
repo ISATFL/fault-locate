@@ -1,0 +1,50 @@
+.root {
+    -fx-font-family: Consolas, Herculanum, serif;
+}
+/* 修改图例的背景颜色和边框样式 */
+.chart-legend {
+    -fx-border-color: #333333;
+    -fx-border-radius: 3px;
+}
+/*修改图例中的文本颜色*/
+.chart-legend .label {
+    -fx-text-fill: #333333;
+}
+/* 修改图标标题的字体样式 */
+.chart-title {
+    -fx-text-fill: #333333;
+}
+.chart-pie-label, .chart-bar-label {
+    -fx-text-fill: #333333;
+}
+/* 改变柱图表数据节点的颜色 */
+.chart-bar, #lineChart, #areaChart, #stackedAreaChart, #bubbleChart, #scatterChart, #stackedBarChart {
+    CHART_COLOR_1: #00a8a0ff;
+    CHART_COLOR_2: darkgreen;
+    CHART_COLOR_3: #020081ff;
+    CHART_COLOR_4: #330033ff;
+    CHART_COLOR_5: #bec100ff;
+    CHART_COLOR_6: #00a8a0ff;
+    CHART_COLOR_7: #80334dff;
+    CHART_COLOR_8: #ffccb3ff
+}
+.chart-bubble .label {
+    -fx-text-fill: red;
+}
+/* 改变x和y轴上面数值标示的颜色 */
+.axis {
+    /* 改变x和y轴数值标示的字体颜色 */
+    -fx-tick-label-fill: #1a1a1aff;
+    /* 改变x和y轴数值标示的字体类型和大小 */
+    -fx-tick-label-font: 9px Consolas;
+}
+/* 改变x和y轴名字的颜色 */
+.axis-label {
+    -fx-text-fill: #990000ff;
+    -fx-font-family: Consolas, "宋体", serif;
+}
+/* 修改tab的背景颜色和字体 */
+
+
+
+
